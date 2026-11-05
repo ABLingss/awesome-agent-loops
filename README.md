@@ -6,6 +6,7 @@ A curated list of agent loop skills, workflow skills, and practical automation b
 
 - [DSH Skills](#dsh-skills)
 - [Workflow Skills](#workflow-skills)
+- [Cloud & Delivery Skills](#cloud--delivery-skills)
 - [Engineering Skills](#engineering-skills)
 - [Research & Automation Skills](#research--automation-skills)
 
@@ -42,6 +43,20 @@ A curated list of agent loop skills, workflow skills, and practical automation b
 - [handoff](https://www.skills.sh/mattpocock/skills/handoff) — Leaves a durable handoff for the next agent or loop iteration.
 - [triage](https://www.skills.sh/mattpocock/skills/triage) — Classifies incoming work before choosing an execution path.
 - [agent-browser](https://www.skills.sh/vercel-labs/agent-browser/agent-browser) — Runs persistent browser actions across sequential agent commands.
+
+## Cloud & Delivery Skills
+
+- [google-agents-cli-workflow](https://www.skills.sh/google/agents-cli/google-agents-cli-workflow) — Scaffolds, evaluates, deploys, and observes agents on Google Cloud.
+- [google-agents-cli-scaffold](https://www.skills.sh/google/agents-cli/google-agents-cli-scaffold) — Adds Cloud Run, GKE, and CI/CD scaffolding to an agent project.
+- [google-agents-cli-deploy](https://www.skills.sh/google/agents-cli/google-agents-cli-deploy) — Deploys agents with Terraform, secrets, rollout, and rollback workflows.
+- [cloud-operator](https://www.skills.sh/google/skills/cloud-operator) — Delegates GCP infrastructure, rollout, incident, and cost operations.
+- [design-deploy](https://www.skills.sh/google/skills/design-deploy) — Designs and validates GCP infrastructure through Terraform before deployment.
+- [research-to-deploy](https://www.skills.sh/jeremylongshore/tons-of-skills-marketplace/research-to-deploy) — Turns cloud research into reviewed Terraform, Pulumi, Docker, or Kubernetes output.
+- [senior-devops](https://www.skills.sh/borghei/claude-skills/senior-devops) — Generates CI/CD, container, Kubernetes, Terraform, rollout, and rollback workflows.
+- [cc-devops-skills](https://www.skills.sh/seaworld008/commonly-used-high-value-skills/cc-devops-skills) — Covers delivery pipelines, Kubernetes, observability, incidents, and reliability.
+- [Devops Cloud Bundle](https://www.skills.sh/mayurrathi/awesome-agent-skills/devops-cloud-bundle) — Bundles Docker, Kubernetes, Helm, Terraform, Ansible, Pulumi, and CI/CD skills.
+- [full-stack DevOps skills](https://www.skills.sh/full-stack-skills/devops-skills) — Provides Kubernetes, Terraform, GitLab CI, GitHub Actions, Ansible, and CloudFormation skills.
+- [flutter-ci-cd](https://www.skills.sh/thienqo/flutter-skills/flutter-ci-cd) — Builds provider-preserving CI/CD workflows with release and secret boundaries.
 
 ## Engineering Skills
 
