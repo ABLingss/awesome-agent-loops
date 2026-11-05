@@ -16,6 +16,21 @@ A curated list of agent loop skills, workflow skills, and practical automation b
 - [dsh-skill-mcp-panel](https://github.com/Fishquito7/dsh-skill-mcp-panel) — Manages DSH skills and MCP servers from one panel.
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) — Turns repeated research runs into evidence-backed reports.
 - [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) — Adds allow, deny, and ask boundaries around long-running DSH work.
+- [dsh-context](https://github.com/bowenliang123/dsh-context) — Inspects and manages context growth during long agent runs.
+- [dsh-deja](https://github.com/vshulcz/deja-vu) — Recalls searchable history from previous coding-agent sessions.
+- [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) — Rolls back broken plugin trees and configuration changes.
+- [cc-safety-net](https://github.com/kenryu42/cc-safety-net) — Blocks destructive commands and secret-file access from coding agents.
+- [dsh-computer-use](https://github.com/Anionex/dsh-computer-use) — Adds guarded macOS computer-use actions for agent workflows.
+- [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — Adds OCR, grounding, UI restoration, and pixel-diff actions.
+- [dsh-subagent-codex](https://github.com/deepseek-ai/deepseek-harness/tree/main/packages/subagent/subagent-codex) — Lets DSH delegate a bounded task to Codex.
+- [dsh-subagent-claude-code](https://github.com/deepseek-ai/deepseek-harness/tree/main/packages/subagent/subagent-claude-code) — Lets DSH delegate a bounded task to Claude Code.
+- [dsh-tool-subagent](https://github.com/deepseek-ai/deepseek-harness/tree/main/packages/subagent/tool-subagent) — Exposes subagent delegation as a model-facing tool.
+- [dsh-mnemon-source-documents](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-source-documents) — Makes project documents available as a memory source.
+- [dsh-mnemon-source-runtime](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-source-runtime) — Provides runtime state as a composable memory source.
+- [dsh-mnemon-source-memory-spaces](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-source-memory-spaces) — Connects durable memory spaces to DSH context.
+- [dsh-mnemon-strategy-auto-capture](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-strategy-auto-capture) — Captures useful durable memory during a turn.
+- [dsh-mnemon-strategy-default-three-tier](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-strategy-default-three-tier) — Selects context through an explicit three-tier strategy.
+- [dsh-mnemon-strategy-light-context](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-strategy-light-context) — Caps projected context to protect loop budgets.
 
 ## Workflow Skills
 
