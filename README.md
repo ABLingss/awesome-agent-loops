@@ -82,3 +82,94 @@ For DSH plugins too, clone the repository and run `./install-skills.sh --dsh`.
 - [Ralph Loop plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) — Runs goal-oriented Claude Code iterations with a stop condition.
 
 Each link is an external skill or plugin; inspect its source and permissions before installing it.
+# Awesome Agent Loops
+
+面向 DSH、Codex、Claude Code 及兼容 Agent 的 Loop Skills、工作流自动化和云端交付配方目录。
+
+一键安装精选 Skills：
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/ABLingss/awesome-agent-loops/main/install-skills.sh | bash
+```
+
+同时安装 DSH 插件：
+
+```sh
+git clone https://github.com/ABLingss/awesome-agent-loops
+cd awesome-agent-loops
+./install-skills.sh --dsh
+```
+
+## DSH Skills / DSH 技能
+
+- [dsh-loop](https://github.com/XiaoWind/dsh-loop) — 为 DSH 增加 `/loop`、状态查看、恢复和停止。
+- [dsh-mnemon-source-skills](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-source-skills) — 管理、演化和评估可复用 Skill。
+- [dsh-skill-mcp-panel](https://github.com/Fishquito7/dsh-skill-mcp-panel) — 在面板中管理 DSH Skills 和 MCP。
+- [dsh-research-report](https://github.com/PerryLink/dsh-research-report) — 把重复调研整理成带证据的报告。
+- [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) — 为长期运行的 Agent 增加权限和网络边界。
+- [dsh-context](https://github.com/bowenliang123/dsh-context) — 查看和管理长任务中的上下文增长。
+- [dsh-deja](https://github.com/vshulcz/deja-vu) — 搜索并回忆之前 Coding Agent 的会话历史。
+- [dsh-undo-savepoint](https://github.com/lire1131/dsh-undo-savepoint) — 回滚损坏的插件树和配置变更。
+- [cc-safety-net](https://github.com/kenryu42/cc-safety-net) — 阻止危险命令和敏感文件访问。
+- [dsh-computer-use](https://github.com/Anionex/dsh-computer-use) — 为 DSH 提供受保护的 macOS Computer Use。
+- [dsh-vision-toolkit](https://github.com/Anionex/dsh-vision-toolkit) — 提供 OCR、视觉定位、UI 恢复和像素对比。
+- [dsh-subagent-codex](https://github.com/deepseek-ai/deepseek-harness/tree/main/packages/subagent/subagent-codex) — 让 DSH 委派任务给 Codex。
+- [dsh-subagent-claude-code](https://github.com/deepseek-ai/deepseek-harness/tree/main/packages/subagent/subagent-claude-code) — 让 DSH 委派任务给 Claude Code。
+- [dsh-tool-subagent](https://github.com/deepseek-ai/deepseek-harness/tree/main/packages/subagent/tool-subagent) — 把子 Agent 委派暴露成工具。
+- [dsh-mnemon-source-documents](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-source-documents) — 把项目文档接入记忆源。
+- [dsh-mnemon-source-runtime](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-source-runtime) — 把运行时状态接入上下文。
+- [dsh-mnemon-source-memory-spaces](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-source-memory-spaces) — 把持久化记忆空间接入 DSH。
+- [dsh-mnemon-strategy-auto-capture](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-strategy-auto-capture) — 在回合中捕获可复用记忆。
+- [dsh-mnemon-strategy-default-three-tier](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-strategy-default-three-tier) — 用三层策略选择上下文。
+- [dsh-mnemon-strategy-light-context](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-strategy-light-context) — 限制上下文投影，保护 Loop 预算。
+
+## Workflow Skills / 工作流技能
+
+- [find-skills](https://www.skills.sh/vercel-labs/skills/find-skills) — 在 Agent 会话中搜索和安装其他 Skills。
+- [grill-me](https://www.skills.sh/mattpocock/skills/grill-me) — 在自动运行前压力测试计划。
+- [to-spec](https://www.skills.sh/mattpocock/skills/to-spec) — 把想法转换成可执行规格。
+- [to-tickets](https://www.skills.sh/mattpocock/skills/to-tickets) — 把规格拆成可追踪任务。
+- [implement](https://www.skills.sh/mattpocock/skills/implement) — 驱动实现、修改和检查流程。
+- [handoff](https://www.skills.sh/mattpocock/skills/handoff) — 为下一轮 Agent 留下持久交接信息。
+- [triage](https://www.skills.sh/mattpocock/skills/triage) — 在执行前分类和分流任务。
+- [agent-browser](https://www.skills.sh/vercel-labs/agent-browser/agent-browser) — 在多轮 Agent 命令之间保持浏览器会话。
+
+## Cloud & Delivery Skills / 云端与交付技能
+
+- [google-agents-cli-workflow](https://www.skills.sh/google/agents-cli/google-agents-cli-workflow) — 在 Google Cloud 上构建、评估、部署和观测 Agent。
+- [google-agents-cli-scaffold](https://www.skills.sh/google/agents-cli/google-agents-cli-scaffold) — 添加 Cloud Run、GKE 和 CI/CD 项目脚手架。
+- [google-agents-cli-deploy](https://www.skills.sh/google/agents-cli/google-agents-cli-deploy) — 使用 Terraform、Secrets、发布和回滚流程部署 Agent。
+- [cloud-operator](https://www.skills.sh/google/skills/cloud-operator) — 处理 GCP 基础设施、发布、事故和成本操作。
+- [design-deploy](https://www.skills.sh/google/skills/design-deploy) — 用 Terraform 设计和验证 GCP 基础设施。
+- [research-to-deploy](https://www.skills.sh/jeremylongshore/tons-of-skills-marketplace/research-to-deploy) — 把云端调研转换成 Terraform、Pulumi、Docker 或 Kubernetes 配置。
+- [senior-devops](https://www.skills.sh/borghei/claude-skills/senior-devops) — 生成 CI/CD、容器、Kubernetes、Terraform 和回滚流程。
+- [cc-devops-skills](https://www.skills.sh/seaworld008/commonly-used-high-value-skills/cc-devops-skills) — 覆盖交付流水线、Kubernetes、观测、事故和可靠性。
+- [Devops Cloud Bundle](https://www.skills.sh/mayurrathi/awesome-agent-skills/devops-cloud-bundle) — 集合 Docker、Kubernetes、Helm、Terraform、Ansible、Pulumi 和 CI/CD。
+- [full-stack DevOps skills](https://www.skills.sh/full-stack-skills/devops-skills) — 提供 Kubernetes、Terraform、GitLab CI、GitHub Actions、Ansible 和 CloudFormation。
+- [flutter-ci-cd](https://www.skills.sh/thienqo/flutter-skills/flutter-ci-cd) — 构建保留现有发布方式和密钥边界的 CI/CD 流程。
+
+## Engineering Skills / 工程技能
+
+- [tdd](https://www.skills.sh/mattpocock/skills/tdd) — 把每轮工作固定成 red、green、refactor。
+- [code-review](https://www.skills.sh/mattpocock/skills/code-review) — 在 Loop 宣布成功前检查变更。
+- [diagnosing-bugs](https://www.skills.sh/mattpocock/skills/diagnosing-bugs) — 用观察、假设、测试、验证定位 Bug。
+- [improve-codebase-architecture](https://www.skills.sh/mattpocock/skills/improve-codebase-architecture) — 发现架构摩擦并提出可测试重构。
+- [systematic-debugging](https://www.skills.sh/obra/superpowers/systematic-debugging) — 用假设驱动调试替代盲目重试。
+- [frontend-design](https://www.skills.sh/anthropics/skills/frontend-design) — 生成有明确设计方向的前端界面。
+- [web-design-guidelines](https://www.skills.sh/vercel-labs/agent-skills/web-design-guidelines) — 按具体规则审查 Web UI 质量。
+- [webapp-testing](https://www.skills.sh/officialskills/webapp-testing) — 通过浏览器自动化测试本地 Web 应用。
+
+## Research & Automation Skills / 调研与自动化技能
+
+- [research](https://www.skills.sh/mattpocock/skills/research) — 在限定范围内完成带来源的调研。
+- [grill-with-docs](https://www.skills.sh/mattpocock/skills/grill-with-docs) — 用仓库文档反向检查设计。
+- [ui-test](https://officialskills.sh/skill/ui-test) — 在 Loop 停止前运行对抗式 UI 检查。
+- [web-quality-audit](https://officialskills.sh/skill/web-quality-audit) — 检查性能、无障碍、SEO 和最佳实践。
+- [variant-analysis](https://officialskills.sh/skill/variant-analysis) — 从一个漏洞继续搜索相似漏洞。
+- [yeet](https://officialskills.sh/skill/yeet) — 自动完成 Git 暂存到 Pull Request 的流程。
+- [remotion-best-practices](https://www.skills.sh/remotion-dev/skills/remotion-best-practices) — 保证多轮视频生成的一致性。
+- [skill-creator](https://www.skills.sh/anthropics/skills/skill-creator) — 创建、测试和发布可复用 Skill。
+- [Ralph Loop plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) — 让 Claude Code 围绕目标持续迭代并在条件满足时停止。
+
+---
+
