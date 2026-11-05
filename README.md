@@ -1,6 +1,14 @@
 # Awesome Agent Loops
 
-A curated list of agent loop skills, workflow skills, and practical automation building blocks.
+A practical directory of agent loop skills, workflow automations, and cloud delivery recipes for DSH, Codex, Claude Code, and compatible agents.
+
+Install the curated skills in one pass:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/ABLingss/awesome-agent-loops/main/install-skills.sh | bash
+```
+
+For DSH plugins too, clone the repository and run `./install-skills.sh --dsh`.
 
 ## Contents
 
