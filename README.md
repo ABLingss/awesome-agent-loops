@@ -1,60 +1,54 @@
 # Awesome Agent Loops
 
-A curated list of agent loop commands, skills,
-workflows, and practical recipes.
+A curated list of agent loop skills, workflow skills, and practical automation building blocks.
 
 ## Contents
 
-- [Harnesses](#harnesses)
-- [Skills](#skills)
-- [Recipes](#recipes)
-- [Resources](#resources)
+- [DSH Skills](#dsh-skills)
+- [Workflow Skills](#workflow-skills)
+- [Engineering Skills](#engineering-skills)
+- [Research & Automation Skills](#research--automation-skills)
 
-## Harnesses
+## DSH Skills
 
-- [`dsh-loop`](https://github.com/XiaoWind/dsh-loop) — DSH `/loop` plugin: interval, persistence, status, resume, and stop.
-- [`dsh-mnemon`](https://github.com/omdsh-dev/dsh-mnemon) — DSH memory and context composition for stateful agent work.
-- [`dsh-skill-mcp-panel`](https://github.com/Fishquito7/dsh-skill-mcp-panel) — Manage DSH skills and MCP servers from a panel.
-- [`dsh-research-report`](https://github.com/PerryLink/dsh-research-report) — Evidence ledger and verifiable report workflow for DSH.
-- [`dsh-permission-rules`](https://github.com/PerryLink/dsh-permission-rules) — Permission and network boundaries for long-running DSH work.
+- [dsh-loop](https://github.com/XiaoWind/dsh-loop) — Adds `/loop 30m <task>`, status, resume, and stop to DeepSeek Harness.
+- [dsh-mnemon-source-skills](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-source-skills) — Stores, evolves, and evaluates reusable DSH skills.
+- [dsh-skill-mcp-panel](https://github.com/Fishquito7/dsh-skill-mcp-panel) — Manages DSH skills and MCP servers from one panel.
+- [dsh-research-report](https://github.com/PerryLink/dsh-research-report) — Turns repeated research runs into evidence-backed reports.
+- [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) — Adds allow, deny, and ask boundaries around long-running DSH work.
 
-## Skills
+## Workflow Skills
 
-- [Claude Code `/loop`](https://code.claude.com/docs/en/scheduled-tasks#run-a-prompt-repeatedly-with-loop) — Re-run a prompt or allowed skill on an interval.
-- [DSH skills source](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-source-skills) — Skill management, evolution suggestions, and evidence trajectories.
-- [Local skill inventory](skills/README.md) — Skills found in the audited Codex / DSH environment.
+- [find-skills](https://www.skills.sh/vercel-labs/skills/find-skills) — Finds and installs another skill from the open ecosystem.
+- [grill-me](https://www.skills.sh/mattpocock/skills/grill-me) — Stress-tests a plan before an autonomous run starts.
+- [to-spec](https://www.skills.sh/mattpocock/skills/to-spec) — Converts an idea into an executable specification.
+- [to-tickets](https://www.skills.sh/mattpocock/skills/to-tickets) — Breaks a specification into trackable implementation tasks.
+- [implement](https://www.skills.sh/mattpocock/skills/implement) — Drives an implementation task through code and checks.
+- [handoff](https://www.skills.sh/mattpocock/skills/handoff) — Leaves a durable handoff for the next agent or loop iteration.
+- [triage](https://www.skills.sh/mattpocock/skills/triage) — Classifies incoming work before choosing an execution path.
+- [agent-browser](https://www.skills.sh/vercel-labs/agent-browser/agent-browser) — Runs persistent browser actions across sequential agent commands.
 
-## Recipes
+## Engineering Skills
 
-- [PR babysitting](recipes/pr-babysitting.md) — Poll CI and review state, then stop when merged or closed.
-- [Experiment watchdog](recipes/experiment-watchdog.md) — Poll metrics and logs with persisted state and a budget.
-- [Research watch](recipes/research-watch.md) — Re-run a source check and append only new evidence.
+- [tdd](https://www.skills.sh/mattpocock/skills/tdd) — Keeps each loop on a red, green, refactor testing cycle.
+- [code-review](https://www.skills.sh/mattpocock/skills/code-review) — Reviews a change set before a loop declares success.
+- [diagnosing-bugs](https://www.skills.sh/mattpocock/skills/diagnosing-bugs) — Applies an observe, hypothesize, test, verify debugging loop.
+- [improve-codebase-architecture](https://www.skills.sh/mattpocock/skills/improve-codebase-architecture) — Finds architectural friction and proposes testable refactors.
+- [systematic-debugging](https://www.skills.sh/obra/superpowers/systematic-debugging) — Uses hypothesis-driven debugging instead of repeated guessing.
+- [frontend-design](https://www.skills.sh/anthropics/skills/frontend-design) — Produces deliberate UI direction instead of generic agent output.
+- [web-design-guidelines](https://www.skills.sh/vercel-labs/agent-skills/web-design-guidelines) — Audits web UI against concrete quality rules.
+- [webapp-testing](https://www.skills.sh/officialskills/webapp-testing) — Tests local web applications through browser automation.
 
-## Resources
+## Research & Automation Skills
 
-- [Claude Code scheduled tasks](https://code.claude.com/docs/en/scheduled-tasks) — Native `/loop`, cron, expiry, and session boundaries.
-- [Codex loop request #15679](https://github.com/openai/codex/issues/15679) — Upstream `/loop` proposal, closed as not planned; use goals or an external scheduler.
-- [DSH loop install notes](https://github.com/XiaoWind/dsh-loop#安装) — DSH plugin installation and profile restart requirements.
+- [research](https://www.skills.sh/mattpocock/skills/research) — Runs bounded research with explicit sources and outputs.
+- [grill-with-docs](https://www.skills.sh/mattpocock/skills/grill-with-docs) — Questions a design against its repository documentation.
+- [ui-test](https://officialskills.sh/skill/ui-test) — Runs adversarial UI checks before a loop stops.
+- [web-quality-audit](https://officialskills.sh/skill/web-quality-audit) — Verifies performance, accessibility, SEO, and best practices.
+- [variant-analysis](https://officialskills.sh/skill/variant-analysis) — Searches for related vulnerabilities after one is found.
+- [yeet](https://officialskills.sh/skill/yeet) — Automates the final Git staging-to-pull-request path.
+- [remotion-best-practices](https://www.skills.sh/remotion-dev/skills/remotion-best-practices) — Keeps repeated video-generation runs consistent.
+- [skill-creator](https://www.skills.sh/anthropics/skills/skill-creator) — Creates, tests, and publishes a reusable skill.
+- [Ralph Loop plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) — Runs goal-oriented Claude Code iterations with a stop condition.
 
-## Community Picks
-
-- [Anthropic Ralph Loop plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) — Official Claude Code plugin for goal-oriented iteration.
-- [SantanderAI Ralph](https://github.com/SantanderAI/ralph) — Fresh-session Bash / PowerShell loop for coding CLIs.
-- [Ralph Claude Code](https://github.com/frankbria/ralph-claude-code) — Stop-aware autonomous loop with state and verification hooks.
-- [Pi Ralph Loop](https://github.com/lnilluv/pi-ralph-loop) — Skill-driven Ralph loop with acceptance gates.
-- [Ralph Loop Dashboard](https://github.com/tjegbejimba/ralph-loop-dashboard) — Planning and orchestration skills around a Ralph workflow.
-- [Autonomous Coding Ralph Loop](https://github.com/fnusatvik07/autonomous-coding-ralph-loop) — Spec, code, test, and QA loop example.
-- [Agent Skills](https://github.com/vercel-labs/agent-skills) — Public skills collection for coding agents.
-- [Selamy Agent Skills](https://github.com/selamy-labs/agent-skills) — Reusable `SKILL.md` workflows for coding and operations.
-- [Jorge Agent Skills](https://github.com/jorgeasaurus/agent-skills) — Development skills including automation recommendations.
-- [Awesome Agent Skills](https://github.com/junminhong/awesome-agent-skills) — Curated skills and multi-agent workflow index.
-- [Mouadja Skills](https://github.com/mouadja02/skills) — Large categorized collection of reusable agent skills.
-- [AgentHouse Skills](https://github.com/AgentHouse-org/skills) — Cross-agent open-source skills collection.
-- [Common Skills](https://github.com/warpdotdev/common-skills) — Shared skills intended for reuse across repositories.
-- [Skills Manager](https://github.com/xingkongliang/skills-manager) — Manage skills across Claude Code, Codex, Cursor, and more.
-- [Claude Skills](https://github.com/GeiserX/claude-skills) — Durable repository workflows and loop-related hooks.
-- [Orchestrate Ralph](https://github.com/n1mmy/orchestrate-ralph) — Orchestrator skill for multi-step autonomous coding runs.
-- [Ralph Architecture Sweep](https://github.com/Aijo24/ralph-architecture-sweep) — Analysis-first Ralph skill for filing architecture issues.
-- [OpenAI Codex](https://github.com/openai/codex) — Codex CLI source and goal-driven execution reference.
-- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — DSH core source and extension model.
-- [Claude Code docs](https://code.claude.com/docs/en) — Official command, skill, and scheduling reference.
+Each link is an external skill or plugin; inspect its source and permissions before installing it.
