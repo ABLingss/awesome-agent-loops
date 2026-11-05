@@ -10,14 +10,6 @@ curl -fsSL https://raw.githubusercontent.com/ABLingss/awesome-agent-loops/main/i
 
 For DSH plugins too, clone the repository and run `./install-skills.sh --dsh`.
 
-## Contents
-
-- [DSH Skills](#dsh-skills)
-- [Workflow Skills](#workflow-skills)
-- [Cloud & Delivery Skills](#cloud--delivery-skills)
-- [Engineering Skills](#engineering-skills)
-- [Research & Automation Skills](#research--automation-skills)
-
 ## DSH Skills
 
 - [dsh-loop](https://github.com/XiaoWind/dsh-loop) — Adds `/loop 30m <task>`, status, resume, and stop to DeepSeek Harness.
