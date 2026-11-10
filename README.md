@@ -80,6 +80,7 @@ cd awesome-agent-loops
 ## Research & Automation Skills / 调研与自动化技能
 
 - [research](https://www.skills.sh/mattpocock/skills/research) — 在限定范围内完成带来源的调研。
+- [research-to-deploy → LazyMind Workflow](recipes/research-to-deploy-lazymind.md) — 把研究、配置生成、人工审批和失败恢复拆成可检查的部署步骤。
 - [grill-with-docs](https://www.skills.sh/mattpocock/skills/grill-with-docs) — 用仓库文档反向检查设计。
 - [ui-test](https://officialskills.sh/skill/ui-test) — 在 Loop 停止前运行对抗式 UI 检查。
 - [web-quality-audit](https://officialskills.sh/skill/web-quality-audit) — 检查性能、无障碍、SEO 和最佳实践。
@@ -170,6 +171,7 @@ For DSH plugins too, clone the repository and run `./install-skills.sh --dsh`.
 ## Research & Automation Skills
 
 - [research](https://www.skills.sh/mattpocock/skills/research) — Runs bounded research with explicit sources and outputs.
+- [research-to-deploy → LazyMind Workflow](recipes/research-to-deploy-lazymind.md) — Separates research, configuration generation, human approval, and recovery into inspectable deployment stages.
 - [grill-with-docs](https://www.skills.sh/mattpocock/skills/grill-with-docs) — Questions a design against its repository documentation.
 - [ui-test](https://officialskills.sh/skill/ui-test) — Runs adversarial UI checks before a loop stops.
 - [web-quality-audit](https://officialskills.sh/skill/web-quality-audit) — Verifies performance, accessibility, SEO, and best practices.
