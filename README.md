@@ -63,6 +63,7 @@ cd awesome-agent-loops
 - [Devops Cloud Bundle](https://www.skills.sh/mayurrathi/awesome-agent-skills/devops-cloud-bundle) — 集合 Docker、Kubernetes、Helm、Terraform、Ansible、Pulumi 和 CI/CD。
 - [full-stack DevOps skills](https://www.skills.sh/full-stack-skills/devops-skills) — 提供 Kubernetes、Terraform、GitLab CI、GitHub Actions、Ansible 和 CloudFormation。
 - [flutter-ci-cd](https://www.skills.sh/thienqo/flutter-skills/flutter-ci-cd) — 构建保留现有发布方式和密钥边界的 CI/CD 流程。
+- [deed-page](https://github.com/f-o-x11/deed-page-skill/tree/main/skills/deed-page) — 在用户确认后，把 Loop 生成的 HTML 报告、仪表盘或静态站点发布到 [deed.page](https://deed.page) 的 HTTPS 链接，并可更新或删除。
 
 ## Engineering Skills / 工程技能
 
@@ -152,6 +153,7 @@ For DSH plugins too, clone the repository and run `./install-skills.sh --dsh`.
 - [Devops Cloud Bundle](https://www.skills.sh/mayurrathi/awesome-agent-skills/devops-cloud-bundle) — Bundles Docker, Kubernetes, Helm, Terraform, Ansible, Pulumi, and CI/CD skills.
 - [full-stack DevOps skills](https://www.skills.sh/full-stack-skills/devops-skills) — Provides Kubernetes, Terraform, GitLab CI, GitHub Actions, Ansible, and CloudFormation skills.
 - [flutter-ci-cd](https://www.skills.sh/thienqo/flutter-skills/flutter-ci-cd) — Builds provider-preserving CI/CD workflows with release and secret boundaries.
+- [deed-page](https://github.com/f-o-x11/deed-page-skill/tree/main/skills/deed-page) — Publishes an HTML report, dashboard, or static site from a loop run to an HTTPS link on [deed.page](https://deed.page) after the user confirms, with update and delete.
 
 ## Engineering Skills
 
