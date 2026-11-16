@@ -49,6 +49,7 @@ cd awesome-agent-loops
 - [handoff](https://www.skills.sh/mattpocock/skills/handoff) — 为下一轮 Agent 留下持久交接信息。
 - [triage](https://www.skills.sh/mattpocock/skills/triage) — 在执行前分类和分流任务。
 - [agent-browser](https://www.skills.sh/vercel-labs/agent-browser/agent-browser) — 在多轮 Agent 命令之间保持浏览器会话。
+- [callmemcp](https://github.com/radres/callmemcp) — 长时间运行的 Agent 遇到阻塞或需要决定时，给你的手机打电话或发短信，并把你的口头回答以文字返回；每次发送前先展示原话并等待确认。
 
 ## Cloud & Delivery Skills / 云端与交付技能
 
@@ -140,6 +141,7 @@ For DSH plugins too, clone the repository and run `./install-skills.sh --dsh`.
 - [handoff](https://www.skills.sh/mattpocock/skills/handoff) — Leaves a durable handoff for the next agent or loop iteration.
 - [triage](https://www.skills.sh/mattpocock/skills/triage) — Classifies incoming work before choosing an execution path.
 - [agent-browser](https://www.skills.sh/vercel-labs/agent-browser/agent-browser) — Runs persistent browser actions across sequential agent commands.
+- [callmemcp](https://github.com/radres/callmemcp) — Lets a long-running agent ring or text your own phone when it is blocked or needs a decision, and returns your spoken answer as text; shows the exact words and waits for a yes before each send.
 
 ## Cloud & Delivery Skills
 
