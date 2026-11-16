@@ -68,6 +68,7 @@ skills=(
   'obra/superpowers|systematic-debugging'
   'anthropics/skills|frontend-design'
   'vercel-labs/agent-skills|web-design-guidelines'
+  'vostride/agent-qa|agent-qa-authoring'
   'google/agents-cli|google-agents-cli-workflow'
   'google/agents-cli|google-agents-cli-scaffold'
   'google/agents-cli|google-agents-cli-deploy'
@@ -81,6 +82,7 @@ skills=(
   'full-stack-skills/devops-skills|terraform'
   'full-stack-skills/devops-skills|github-actions'
   'full-stack-skills/devops-skills|gitlab-ci'
+  'f-o-x11/deed-page-skill|deed-page'
   'mattpocock/skills|research'
   'anthropics/skills|skill-creator'
 )
