@@ -76,6 +76,7 @@ cd awesome-agent-loops
 - [web-design-guidelines](https://www.skills.sh/vercel-labs/agent-skills/web-design-guidelines) — 按具体规则审查 Web UI 质量。
 - [webapp-testing](https://www.skills.sh/officialskills/webapp-testing) — 通过浏览器自动化测试本地 Web 应用。
 - [agent-qa-authoring](https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-authoring) — 为 [agent-qa](https://vostride.com) 编写自然语言 Web 和移动测试，并检查测试契约。
+- [design-os-designer](https://github.com/jangtrinh/design-os/tree/main/skills/design-os-designer) — 免费的 UI 设计循环（构思、构建、检查、交付、调整），只有确定性的 `ui` 审美与无障碍检查和三种宽度截图检查通过后才算完成；源码可见（PolyForm Shield 许可）。
 
 ## Research & Automation Skills / 调研与自动化技能
 
@@ -167,6 +168,7 @@ For DSH plugins too, clone the repository and run `./install-skills.sh --dsh`.
 - [web-design-guidelines](https://www.skills.sh/vercel-labs/agent-skills/web-design-guidelines) — Audits web UI against concrete quality rules.
 - [webapp-testing](https://www.skills.sh/officialskills/webapp-testing) — Tests local web applications through browser automation.
 - [agent-qa-authoring](https://github.com/vostride/agent-qa/tree/main/skills/agent-qa-authoring) — Authors natural-language web and mobile tests for [agent-qa](https://vostride.com) and checks their test contracts.
+- [design-os-designer](https://github.com/jangtrinh/design-os/tree/main/skills/design-os-designer) — Free UI design loop (concept, build, check, hand over, adjust) that only counts as done after the deterministic `ui` taste and accessibility gate and a three-width look pass; source-available (PolyForm Shield).
 
 ## Research & Automation Skills
 
