@@ -22,6 +22,7 @@ cd awesome-agent-loops
 - [dsh-mnemon-source-skills](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-source-skills) — 管理、演化和评估可复用 Skill。
 - [dsh-skill-mcp-panel](https://github.com/Fishquito7/dsh-skill-mcp-panel) — 在面板中管理 DSH Skills 和 MCP。
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) — 把重复调研整理成带证据的报告。
+- [dsh-keenable](https://github.com/keenableai/dsh-keenable) — 让 DSH 内置的 `web_search` 和 `web_fetch` 通过 Keenable 联网搜索和读取网页，无需 API Key。
 - [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) — 为长期运行的 Agent 增加权限和网络边界。
 - [dsh-context](https://github.com/bowenliang123/dsh-context) — 查看和管理长任务中的上下文增长。
 - [dsh-deja](https://github.com/vshulcz/deja-vu) — 搜索并回忆之前 Coding Agent 的会话历史。
@@ -115,6 +116,7 @@ For DSH plugins too, clone the repository and run `./install-skills.sh --dsh`.
 - [dsh-mnemon-source-skills](https://github.com/omdsh-dev/dsh-mnemon/tree/main/plugins/dsh-mnemon-source-skills) — Stores, evolves, and evaluates reusable DSH skills.
 - [dsh-skill-mcp-panel](https://github.com/Fishquito7/dsh-skill-mcp-panel) — Manages DSH skills and MCP servers from one panel.
 - [dsh-research-report](https://github.com/PerryLink/dsh-research-report) — Turns repeated research runs into evidence-backed reports.
+- [dsh-keenable](https://github.com/keenableai/dsh-keenable) — Points DSH's built-in `web_search` and `web_fetch` at Keenable, with no API key needed.
 - [dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) — Adds allow, deny, and ask boundaries around long-running DSH work.
 - [dsh-context](https://github.com/bowenliang123/dsh-context) — Inspects and manages context growth during long agent runs.
 - [dsh-deja](https://github.com/vshulcz/deja-vu) — Recalls searchable history from previous coding-agent sessions.
