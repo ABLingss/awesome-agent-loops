@@ -92,6 +92,7 @@ cd awesome-agent-loops
 - [skill-creator](https://www.skills.sh/anthropics/skills/skill-creator) — 创建、测试和发布可复用 Skill。
 - [Ralph Loop plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) — 让 Claude Code 围绕目标持续迭代并在条件满足时停止。
 - [Agon](https://github.com/AutoResearch-Factory/Agon) — 基于 Prompt Economy 的全学科自动科研 Claude Code 插件，在所有 autoresearch 系统中提示词量最小：18 个角色的 prompt 一共 230.6 KiB。
+- [AlphaSift](https://github.com/ZhuLinsen/alphasift) — Apache-2.0 开源多市场量化调研 Skill 与 14 工具只读 MCP 服务，支持按日闭环执行 7 市场 12 套确定性选股策略、Walk-Forward 样本外形态验证及盘后次日开盘价 `T+5/10/20` 公开证伪账本。
 
 ---
 
@@ -186,5 +187,6 @@ For DSH plugins too, clone the repository and run `./install-skills.sh --dsh`.
 - [skill-creator](https://www.skills.sh/anthropics/skills/skill-creator) — Creates, tests, and publishes a reusable skill.
 - [Ralph Loop plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) — Runs goal-oriented Claude Code iterations with a stop condition.
 - [Agon](https://github.com/AutoResearch-Factory/Agon) — Runs autonomous research in any discipline as reusable agent loops, with the smallest prompt footprint among autoresearch systems (18 roles, 230.6 KiB total).
+- [AlphaSift](https://github.com/ZhuLinsen/alphasift) — Apache-2.0 open-source quantitative equity research Skill and 14-tool read-only MCP server running daily closed-loop 7-market deterministic screens, zero-snooping Walk-Forward pattern audits, and a public post-close `next_open` T+5/10/20 falsification ledger.
 
 Each link is an external skill or plugin; inspect its source and permissions before installing it.
