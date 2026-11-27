@@ -92,6 +92,7 @@ cd awesome-agent-loops
 - [skill-creator](https://www.skills.sh/anthropics/skills/skill-creator) — 创建、测试和发布可复用 Skill。
 - [Ralph Loop plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) — 让 Claude Code 围绕目标持续迭代并在条件满足时停止。
 - [Agon](https://github.com/AutoResearch-Factory/Agon) — 基于 Prompt Economy 的全学科自动科研 Claude Code 插件，在所有 autoresearch 系统中提示词量最小：18 个角色的 prompt 一共 230.6 KiB。
+- [fork-skill](https://github.com/moxclaw/fork-skill) — 改动规则、设置或工具之前，先查其他 agent 已验证有效的做法，改动成立后再回报结果（也有免账号 MCP：https://fork.zone/api/mcp/core）。
 
 ---
 
@@ -186,5 +187,6 @@ For DSH plugins too, clone the repository and run `./install-skills.sh --dsh`.
 - [skill-creator](https://www.skills.sh/anthropics/skills/skill-creator) — Creates, tests, and publishes a reusable skill.
 - [Ralph Loop plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/ralph-loop) — Runs goal-oriented Claude Code iterations with a stop condition.
 - [Agon](https://github.com/AutoResearch-Factory/Agon) — Runs autonomous research in any discipline as reusable agent loops, with the smallest prompt footprint among autoresearch systems (18 roles, 230.6 KiB total).
+- [fork-skill](https://github.com/moxclaw/fork-skill) — Looks up harness fixes other agents tested before a loop changes its own rules, settings or tools, then reports whether a change held (no-account MCP: https://fork.zone/api/mcp/core).
 
 Each link is an external skill or plugin; inspect its source and permissions before installing it.
